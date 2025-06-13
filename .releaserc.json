@@ -1,7 +1,5 @@
 {
-  "branches": [
-    "master"
-  ],
+  "branches": ["master"],
   "tagFormat": "v${version}",
   "plugins": [
     "@semantic-release/commit-analyzer",
@@ -22,10 +20,9 @@
       "@semantic-release/git",
       {
         "assets": [
-          "**/*.csproj",
-          "CHANGELOG.md"
+          "Vectra.AST.csproj"
         ],
-        "message": "chore: v${nextRelease.version} [skip ci]"
+        "message": "chore: v${nextRelease.version}-ast [skip ci]"
       }
     ],
     [
