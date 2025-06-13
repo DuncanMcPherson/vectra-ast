@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vectra.AST", "Vectra.AST\Vectra.AST.csproj", "{2CE3FB40-B2D5-40B8-BCE9-B2D9702AA4C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{C863D10B-C83E-4425-86C9-CDB5BBDD25BA}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Config\clear-branches.ps1 = Config\clear-branches.ps1
+		Config\.releaserc.json = Config\.releaserc.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CE3FB40-B2D5-40B8-BCE9-B2D9702AA4C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CE3FB40-B2D5-40B8-BCE9-B2D9702AA4C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CE3FB40-B2D5-40B8-BCE9-B2D9702AA4C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CE3FB40-B2D5-40B8-BCE9-B2D9702AA4C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
