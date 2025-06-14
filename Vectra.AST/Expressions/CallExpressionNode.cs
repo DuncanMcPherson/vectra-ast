@@ -12,7 +12,7 @@ namespace Vectra.AST.Expressions;
 /// associated with the node. This class is used to model function or method invocation
 /// expressions in the AST.
 /// </remarks>
-public class CallExpressionNode(IExpressionNode target, List<IExpressionNode> arguments, SourceSpan span) : IStatementNode, IExpressionNode
+public class CallExpressionNode(IExpressionNode target, List<IExpressionNode> arguments, string methodName, SourceSpan span) : IStatementNode, IExpressionNode
 {
     /// <summary>
     /// Gets the target expression for the call expression.
@@ -33,6 +33,8 @@ public class CallExpressionNode(IExpressionNode target, List<IExpressionNode> ar
     /// to an individual argument in the call.
     /// This property is read-only.
     public List<IExpressionNode> Arguments { get; } = arguments;
+    
+    public string MethodName { get; } = methodName;
     
     /// <summary>
     /// Gets the span of source code associated with the node.
