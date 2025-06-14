@@ -13,14 +13,15 @@
     [
       "@semantic-release/exec",
       {
-        "prepareCmd": "sed -i \"s|<Version>.*</Version>|<Version>${nextRelease.version}</Version>|\" **/*.csproj"
+        "prepareCmd": "sed -i \"s|<Version>.*</Version>|<Version>${nextRelease.version}</Version>|\" Vectra.AST/Vectra.AST.csproj"
       }
     ],
     [
       "@semantic-release/git",
       {
         "assets": [
-          "Vectra.AST.csproj"
+          "**/Vectra.AST.csproj",
+          "CHANGELOG.md"
         ],
         "message": "chore: v${nextRelease.version}-ast [skip ci]"
       }
