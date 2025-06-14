@@ -14,7 +14,7 @@ namespace Vectra.AST.Declarations;
 /// </remarks>
 public class MethodDeclarationNode(
     string name,
-    List<string> parameters,
+    List<Parameter> parameters,
     List<IStatementNode> body,
     SourceSpan span,
     string returnType)
@@ -41,7 +41,7 @@ public class MethodDeclarationNode(
     /// The parameters are represented as a list of strings, where each string corresponds
     /// to the name of a parameter in the method's signature.
     /// </remarks>
-    public List<string> Parameters { get; } = parameters;
+    public List<Parameter> Parameters { get; } = parameters;
 
     /// <summary>
     /// Gets the return type of the method declared by this node.
