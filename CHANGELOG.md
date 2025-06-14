@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/DuncanMcPherson/vectra-ast/compare/v2.1.0...v2.2.0) (2025-06-14)
+
+
+### Features
+
+* **ast:** Add necessary metadata ([dfca2a4](https://github.com/DuncanMcPherson/vectra-ast/commit/dfca2a4f5f3add87df7336b7d70f8f78e6c1ac04))
+
 # [2.1.0](https://github.com/DuncanMcPherson/vectra-ast/compare/v2.0.0...v2.1.0) (2025-06-14)
 
 
