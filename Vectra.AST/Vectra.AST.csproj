@@ -5,9 +5,9 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Version>2.1.0</Version>
         <Title>Vectra AST</Title>
-        <Authors>DuncanMcPherson</Authors>
+        <RepositoryUrl>https://github.com/duncanmcpherson/vectra-ast</RepositoryUrl>
+        <Version>2.1.0</Version>
     </PropertyGroup>
 
 </Project>
