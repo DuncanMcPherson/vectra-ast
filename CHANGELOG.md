@@ -1,3 +1,17 @@
+## [2.2.1](https://github.com/DuncanMcPherson/vectra-ast/compare/v2.2.0...v2.2.1) (2025-06-17)
+
+
+### Bug Fixes
+
+* repository attribution ([f26f464](https://github.com/DuncanMcPherson/vectra-ast/commit/f26f4642e66f6bd99ea1b9b4125dc83c70e7c3a7))
+
+# [2.2.0](https://github.com/DuncanMcPherson/vectra-ast/compare/v2.1.0...v2.2.0) (2025-06-14)
+
+
+### Features
+
+* **ast:** Add necessary metadata ([dfca2a4](https://github.com/DuncanMcPherson/vectra-ast/commit/dfca2a4f5f3add87df7336b7d70f8f78e6c1ac04))
+
 # [2.1.0](https://github.com/DuncanMcPherson/vectra-ast/compare/v2.0.0...v2.1.0) (2025-06-14)
 
 
