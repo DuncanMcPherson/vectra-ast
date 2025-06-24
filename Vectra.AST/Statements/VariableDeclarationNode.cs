@@ -5,8 +5,17 @@ namespace Vectra.AST.Statements;
 
 public class VariableDeclarationNode : IStatementNode
 {
+    /// <summary>
+    /// The user declared name of the variable.
+    /// </summary>
     public string Name { get; }
+    /// <summary>
+    /// The explicit type of the variable. Required if <see cref="Initializer"/> is null.
+    /// </summary>
     public string? ExplicitType { get; }
+    /// <summary>
+    /// The initializer expression for the variable. Required if <see cref="ExplicitType"/> is null.
+    /// </summary>
     public IExpressionNode? Initializer { get; }
     
     public SourceSpan Span { get; }
