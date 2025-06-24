@@ -7,7 +7,10 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Version>2.2.1</Version>
         <Title>Vectra AST</Title>
-        <RepositoryUrl>https://github.com/duncanmcpherson/vectra-ast</RepositoryUrl>
+        <Authors>DuncanMcPherson</Authors>
+        <PackageProjectUrl>https://github.com/DuncanMcPherson/vectra-ast</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/DuncanMcPherson/vectra-ast</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
     </PropertyGroup>
 
 </Project>
