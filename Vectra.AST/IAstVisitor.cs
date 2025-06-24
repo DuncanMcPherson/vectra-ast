@@ -100,4 +100,12 @@ public interface IAstVisitor<out T>
     /// <param name="node">The binary expression node to be visited, containing the operator, left-hand operand, and right-hand operand.</param>
     /// <returns>Returns a result of type <typeparamref name="T"/> based on the implementation of the visitor.</returns>
     T VisitBinaryExpression(BinaryExpressionNode node);
+
+    /// <summary>
+    /// Visits a variableDeclaration node in the abstract syntax tree (AST).
+    /// </summary>
+    /// <param name="node">The variable declaration node to visit. This node represents a variable declaration
+    /// within the AST, including its name, type, and value.</param>
+    /// <returns>Returns a result of type <typeparamref name="T"/> based on the implementation of the visitor.</returns>
+    T VisitVariableDeclaration(VariableDeclarationNode node);
 }
