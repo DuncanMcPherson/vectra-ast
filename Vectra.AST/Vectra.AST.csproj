@@ -8,6 +8,9 @@
         <Version>2.2.0</Version>
         <Title>Vectra AST</Title>
         <Authors>DuncanMcPherson</Authors>
+        <PackageProjectUrl>https://github.com/DuncanMcPherson/vectra-ast</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/DuncanMcPherson/vectra-ast</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
     </PropertyGroup>
 
 </Project>
