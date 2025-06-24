@@ -1,3 +1,15 @@
+# [2.3.0](https://github.com/DuncanMcPherson/vectra-ast/compare/v2.2.1...v2.3.0) (2025-06-24)
+
+
+### Bug Fixes
+
+* nuget package metadata ([b61d9f4](https://github.com/DuncanMcPherson/vectra-ast/commit/b61d9f4b5c73a5285beb63569e5988b4b4cd2613))
+
+
+### Features
+
+* add support for variables ([8e7a0d7](https://github.com/DuncanMcPherson/vectra-ast/commit/8e7a0d79d0a99809768b9100ca1459719bcfe606))
+
 ## [2.2.1](https://github.com/DuncanMcPherson/vectra-ast/compare/v2.2.0...v2.2.1) (2025-06-17)
 
 
