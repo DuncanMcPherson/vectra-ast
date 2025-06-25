@@ -46,4 +46,9 @@ public class LiteralExpressionNode(object value, SourceSpan span) : IExpressionN
     {
         return visitor.VisitLiteralExpression(this);
     }
+    
+    public override string ToString()
+    {
+        return $"LiteralExpressionNode({Value})";
+    }
 }

@@ -102,4 +102,9 @@ public class SpaceDeclarationNode
         _parent = parent;
         _parent?.ChildSpaces.Add(this);
     }
+
+    public override string ToString()
+    {
+        return $"SpaceDeclarationNode({QualifiedName}, {Declarations.Count} declarations, [{string.Join(',', Declarations)}])";
+    }
 }

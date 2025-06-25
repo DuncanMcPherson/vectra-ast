@@ -32,4 +32,9 @@ public class VariableDeclarationNode : IStatementNode
     {
         return visitor.VisitVariableDeclaration(this);
     }
+    
+    public override string ToString()
+    {
+        return $"VariableDeclarationNode({Name}, {ExplicitType ?? "let"}, {Initializer})";
+    }
 }

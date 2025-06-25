@@ -91,4 +91,9 @@ public class MethodDeclarationNode(
     /// Returns a result of type T, as produced by the visitor when processing this MethodDeclarationNode.
     /// </returns>
     public T Accept<T>(IAstVisitor<T> visitor) => visitor.VisitMethodDeclaration(this);
+
+    public override string ToString()
+    {
+        return $"MethodDeclarationNode({Name}, {Parameters.Count} parameters ({string.Join(',', Parameters)}), {ReturnType}, [{Body}])";
+    }
 }

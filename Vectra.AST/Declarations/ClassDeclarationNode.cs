@@ -52,4 +52,9 @@ public class ClassDeclarationNode(string name, List<IMemberNode> members, Source
     /// <param name="visitor">An instance of a class implementing the IAstVisitor interface.</param>
     /// <returns>Returns the result of the visitor's operation as type <typeparamref name="T"/>.</returns>
     public T Accept<T>(IAstVisitor<T> visitor) => visitor.VisitClassDeclaration(this);
+
+    public override string ToString()
+    {
+        return $"ClassDeclarationNode({Name}, {Members.Count} members, [{string.Join(',', Members)}])";
+    }
 }

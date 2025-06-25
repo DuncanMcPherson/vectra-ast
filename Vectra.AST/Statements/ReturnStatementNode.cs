@@ -37,4 +37,9 @@ public class ReturnStatementNode(IExpressionNode? value, SourceSpan span) : ISta
     {
         return visitor.VisitReturnStatement(this);
     }
+    
+    public override string ToString()
+    {
+        return $"ReturnStatementNode({(Value != null ? Value.ToString() : "null")})";
+    }
 }

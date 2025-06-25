@@ -56,4 +56,9 @@ public class CallExpressionNode(IExpressionNode target, List<IExpressionNode> ar
     {
         return visitor.VisitCallExpression(this);
     }
+    
+    public override string ToString()
+    {
+        return $"CallExpressionNode({Target}, {Arguments.Count} arguments ([{string.Join(',', Arguments)}]), {MethodName})";
+    }
 }

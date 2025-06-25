@@ -64,4 +64,9 @@ public class BinaryExpressionNode(string op, IExpressionNode left, IExpressionNo
     {
         return visitor.VisitBinaryExpression(this);
     }
+
+    public override string ToString()
+    {
+        return $"BinaryExpressionNode({Left}, {Operator}, {Right})";
+    }
 }

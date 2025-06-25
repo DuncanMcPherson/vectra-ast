@@ -49,4 +49,9 @@ public class ExpressionStatementNode(IExpressionNode expression, SourceSpan span
     {
         return visitor.VisitExpressionStatement(this);
     }
+    
+    public override string ToString()
+    {
+        return $"ExpressionStatementNode({Expression})";
+    }
 }

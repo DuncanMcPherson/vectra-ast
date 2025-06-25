@@ -30,4 +30,9 @@ public class IdentifierExpressionNode(string name, SourceSpan span) : IExpressio
     {
         return visitor.VisitIdentifierExpression(this);
     }
+    
+    public override string ToString()
+    {
+        return $"IdentifierExpressionNode({Name})";
+    }
 }
