@@ -1,3 +1,15 @@
+# [2.5.0](https://github.com/DuncanMcPherson/vectra-ast/compare/v2.4.0...v2.5.0) (2025-06-25)
+
+
+### Bug Fixes
+
+* **ast:** format MethodDeclarationNode body correctly in ToString ([7ac4154](https://github.com/DuncanMcPherson/vectra-ast/commit/7ac4154be3cf2da77ddce5cef05572dd728a83e9))
+
+
+### Features
+
+* **ast:** add PropertyDeclarationNode and FieldDeclarationNode ([d45e888](https://github.com/DuncanMcPherson/vectra-ast/commit/d45e8885ba96a2de5f269888154e83f37db841e4))
+
 # [2.4.0](https://github.com/DuncanMcPherson/vectra-ast/compare/v2.3.0...v2.4.0) (2025-06-25)
 
 
