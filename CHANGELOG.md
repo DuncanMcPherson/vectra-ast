@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/DuncanMcPherson/vectra-ast/compare/v2.3.0...v2.4.0) (2025-06-25)
+
+
+### Features
+
+* added ast printing by overriding ToString on all nodes ([52666f2](https://github.com/DuncanMcPherson/vectra-ast/commit/52666f2b99e8adeb4711d37ad67fe8d3a9d70b77))
+
 # [2.3.0](https://github.com/DuncanMcPherson/vectra-ast/compare/v2.2.1...v2.3.0) (2025-06-24)
 
 
