@@ -40,7 +40,7 @@ public interface IAstVisitor<out T>
 
     /// Visits an expression statement node during traversal of the abstract syntax tree (AST).
     /// <param name="node">
-    /// The expression statement node to visit. This node encapsulates an expression as its main component
+    /// The expression statement node to visit. This node encapsulates an expression as its main part
     /// and may also include source span information indicating its location in the source code.
     /// </param>
     /// <returns>
@@ -108,4 +108,26 @@ public interface IAstVisitor<out T>
     /// within the AST, including its name, type, and value.</param>
     /// <returns>Returns a result of type <typeparamref name="T"/> based on the implementation of the visitor.</returns>
     T VisitVariableDeclaration(VariableDeclarationNode node);
+
+    /// <summary>
+    /// Visits a field declaration node in the abstract syntax tree (AST).
+    /// </summary>
+    /// <param name="node">
+    /// The <see cref="FieldDeclarationNode"/> representing the field declaration to be visited.
+    /// </param>
+    /// <returns>
+    /// A generic result of the visitor's operation, determined by the implementation.
+    /// </returns>
+    T VisitFieldDeclaration(FieldDeclarationNode node);
+
+    /// <summary>
+    /// Visits a property declaration node in the abstract syntax tree (AST).
+    /// </summary>
+    /// <param name="node">
+    /// The <see cref="PropertyDeclarationNode"/> representing the property declaration to be visited.
+    /// </param>
+    /// <returns>
+    /// A generic result of the visitor's operation, determined by the implementation.
+    /// </returns>
+    T VisitPropertyDeclaration(PropertyDeclarationNode node);
 }
