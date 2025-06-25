@@ -94,6 +94,6 @@ public class MethodDeclarationNode(
 
     public override string ToString()
     {
-        return $"MethodDeclarationNode({Name}, {Parameters.Count} parameters ({string.Join(',', Parameters)}), {ReturnType}, [{Body}])";
+        return $"MethodDeclarationNode({Name}, {Parameters.Count} parameters ({string.Join(',', Parameters)}), {ReturnType}, [{string.Join(',', Body)}])";
     }
 }
