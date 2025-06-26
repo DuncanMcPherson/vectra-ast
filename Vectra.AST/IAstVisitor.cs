@@ -130,4 +130,16 @@ public interface IAstVisitor<out T>
     /// A generic result of the visitor's operation, determined by the implementation.
     /// </returns>
     T VisitPropertyDeclaration(PropertyDeclarationNode node);
+
+    /// <summary>
+    /// Visits a new expression node in the abstract syntax tree (AST).
+    /// </summary>
+    /// <param name="node">
+    /// The <see cref="NewExpressionNode"/> representing the new expression to be visited,
+    /// which includes the type being instantiated and its constructor arguments.
+    /// </param>
+    /// <returns>
+    /// A generic result of the visitor's operation, determined by the implementation.
+    /// </returns>
+    T VisitNewExpression(NewExpressionNode node);
 }
