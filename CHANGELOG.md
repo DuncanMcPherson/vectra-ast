@@ -1,3 +1,10 @@
+# [2.6.0](https://github.com/DuncanMcPherson/vectra-ast/compare/v2.5.0...v2.6.0) (2025-06-26)
+
+
+### Features
+
+* add support for `NewExpressionNode` in AST ([b72bd1a](https://github.com/DuncanMcPherson/vectra-ast/commit/b72bd1a1e18544d262e1fad009c63331ad137369))
+
 # [2.5.0](https://github.com/DuncanMcPherson/vectra-ast/compare/v2.4.0...v2.5.0) (2025-06-25)
 
 
